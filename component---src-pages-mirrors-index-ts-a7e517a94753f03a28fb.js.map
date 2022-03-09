@@ -1,0 +1,1 @@
+{"version":3,"file":"component---src-pages-mirrors-index-ts-a7e517a94753f03a28fb.js","mappings":"mJACA,UAAeA,EAAf","sources":["webpack://mirrors.xjtu.edu.cn/./src/pages/mirrors/index.ts"],"sourcesContent":["import MirrorsPage from './[...]';\nexport default MirrorsPage;\n"],"names":["MirrorsPage"],"sourceRoot":""}

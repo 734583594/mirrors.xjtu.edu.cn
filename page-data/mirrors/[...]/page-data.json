@@ -1,0 +1,6 @@
+{
+    "componentChunkName": "component---src-pages-mirrors-tsx",
+    "path": "/mirrors/[...]/",
+    "result": {"pageContext":{}},
+    "staticQueryHashes": ["1061611796"],
+    "matchPath": "/mirrors/*"}

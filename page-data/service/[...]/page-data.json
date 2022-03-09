@@ -1,0 +1,6 @@
+{
+    "componentChunkName": "component---src-pages-service-tsx",
+    "path": "/service/[...]/",
+    "result": {"pageContext":{}},
+    "staticQueryHashes": [],
+    "matchPath": "/service/*"}

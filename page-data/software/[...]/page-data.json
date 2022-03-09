@@ -1,0 +1,6 @@
+{
+    "componentChunkName": "component---src-pages-software-tsx",
+    "path": "/software/[...]/",
+    "result": {"pageContext":{}},
+    "staticQueryHashes": [],
+    "matchPath": "/software/*"}
