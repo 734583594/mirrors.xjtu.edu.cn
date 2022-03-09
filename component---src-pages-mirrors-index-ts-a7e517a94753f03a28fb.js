@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkmirrors_xjtu_edu_cn=self.webpackChunkmirrors_xjtu_edu_cn||[]).push([[506],{1759:function(u,e,r){r.r(e);var s=r(592);e.default=s.default}}]);
-//# sourceMappingURL=component---src-pages-mirrors-index-ts-a7e517a94753f03a28fb.js.map

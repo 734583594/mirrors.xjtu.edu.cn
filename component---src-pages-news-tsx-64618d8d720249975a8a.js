@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkmirrors_xjtu_edu_cn=self.webpackChunkmirrors_xjtu_edu_cn||[]).push([[114],{3156:function(e,n,r){r.r(n);var t=r(7294),u=r(1597);n.default=function(){return t.createElement("main",null,t.createElement("h1",null,"Blank"),t.createElement(u.rU,{to:"/"},"Go home"),".")}}}]);
-//# sourceMappingURL=component---src-pages-news-tsx-64618d8d720249975a8a.js.map
