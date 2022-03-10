@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkmirrors_xjtu_edu_cn=self.webpackChunkmirrors_xjtu_edu_cn||[]).push([[349],{1209:function(e,n,r){r.r(n);var t=r(7294),u=r(1597);n.default=function(){return t.createElement("main",null,t.createElement("h1",null,"Blank"),t.createElement(u.rU,{to:"/"},"Go home"),".")}}}]);
-//# sourceMappingURL=component---src-pages-sitemap-tsx-7cc616a075ce79d0dcca.js.map
