@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmirrors_xjtu_edu_cn=self.webpackChunkmirrors_xjtu_edu_cn||[]).push([[585,95],{1882:function(e,n,t){t.r(n);var u=t(7294),r=t(1597);n.default=function(){return u.createElement("main",null,u.createElement("h1",null,"Page not found"),u.createElement(r.rU,{to:"/"},"Go home"),".")}},5871:function(e,n,t){t.r(n);var u=t(1882);n.default=u.default}}]);
+//# sourceMappingURL=component---src-pages-service-index-ts-69c30cb304b76188217c.js.map
