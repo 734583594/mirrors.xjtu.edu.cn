@@ -2,31 +2,38 @@
 title: 使用 PyPI 镜像源
 description: 西安交通大学软件镜像站 PyPI 镜像源使用帮助。
 ---
-## 介绍
+## 基本信息
 **PyPi(Python Package Index)** 是一个著名的python的包管理网站，收录了上万python库。
 本站提供PyPi的镜像，为国内的python使用者提供服务。
 
 ## 使用方法
 ### 一、临时使用
-```bash
+```shell
 pip install -i https://mirrors.xjtu.edu.cn/pypi/simple/ some-package
+```
+若报错，可添加--trusted-host参数
+```shell
+pip install [package-name] -i https://mirrors.xjtu.edu.cn/pypi/simple --trusted-host mirrors.xjtu.edu.cn
 ```
 ### 二、永久更换
 修改前建议更新pip版本
-```bash
+```shell
 pip install pip -U
 ```
 #### 方法1：命令行安装
-```bash
-pip config set global.index-url https://mirrors.xjtu.edu.cn/pypi/simple/
+```shell
+pip config set global.index-url https://mirrors.xjtu.edu.cn/pypi/simple
+pip config set install.trusted-host mirrors.xjtu.edu.cn
 ```
 
 #### 方法2：手动修改配置文件
 pip的配置文件是  ** ~/.pip/pip.conf ** (linux) 或  ** %AppData%\Roaming\pip\pip.ini ** (windows) ，如果没有这个文件就创建该文件，然后在其中加入下列代码：
 
-```bash
+```shell
 [global]
 index-url = https://mirrors.xjtu.edu.cn/pypi/simple/
+[install]
+trusted-host = mirrors.xjtu.edu.cn
 ```
 
 

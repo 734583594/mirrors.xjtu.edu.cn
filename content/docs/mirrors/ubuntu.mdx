@@ -2,12 +2,18 @@
 title: 使用 Ubuntu 镜像源
 description: 西安交通大学软件镜像站 Ubuntu 镜像源、Ubuntu Releases 镜像源与 Ubuntu Ports 镜像源使用帮助。
 ---
-
+## 基本信息
+### 收录架构
+- i386
+- amd64
+- source
+### 收录版本
+所有当前支持的版本，包括开发版，具体见[Ubuntu Releases](https://wiki.ubuntu.com/Releases)
 ## 使用说明
-
-### 手动修改
-
+### 图形化操作方式：软件包管理中心
+在软件包管理中心“软件源”中设置软件源为 `https://mirrors.xjtu.edu.cn/ubuntu/` 即可。
 ### 配置生成器
+选择相应的Ubuntu版本，在 **/etc/apt/sources.list** 文件开头添加以下配置（建议做好备份）
 
 export const data = [
   { id: 'impish', title: '21.10 (Impish Indri)' },
@@ -80,7 +86,7 @@ export const ConfigGenerator = () => {
           ))}
         </select>
         <br />
-        <div className="space-x-2">
+        <span className="space-x-2">
           <label className="text-sm">
             <input
               name="enableProposed"
@@ -114,7 +120,7 @@ export const ConfigGenerator = () => {
             />
             使用 Ubuntu Ports 镜像
           </label>
-        </div>
+        </span>
       </p>
       <pre>
         <code className="language-shell">
@@ -131,3 +137,16 @@ export const ConfigGenerator = () => {
 };
 
 <ConfigGenerator />
+
+然后运行命令更新源
+```bash
+sudo apt-get update
+```
+
+## 相关链接
+- 官方主页: http://www.ubuntu.com/
+- 邮件列表: http://www.ubuntu.com/support/community/mailinglists
+- 论坛: http://ubuntuforums.org/
+- 中文论坛: http://forum.ubuntu.org.cn/
+- Wiki: https://wiki.ubuntu.com/
+- 文档: https://help.ubuntu.com/

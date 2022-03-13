@@ -2,3 +2,28 @@
 title: 使用 Arch Linux 镜像源
 description: 西安交通大学软件镜像站 Arch Linux 镜像源与 Arch Linux 中文社区仓库镜像源使用帮助。
 ---
+## 基本信息
+Arch Linux是一款基于x86-64架构的Linux发行版。系统主要由自由和开源软件组成，支持社区参与。系统设计以KISS原则（保持简单和愚蠢）为总体指导原则，注重代码正确、优雅和极简主义，期待用户能够愿意去理解系统的操作。
+
+### 收录架构
+
+- x86_64
+
+### 收录版本
+
+- All
+
+## 使用说明
+编辑文件 **/etc/pacman.d/mirrorlist** ，在文件最顶端添加以下配置
+```text
+Server = https://mirrors.xjtu.edu.cn/archlinux/$repo/os/$arch
+```
+然后更新软件包缓存
+```bash
+sudo pacman -Syy
+```
+## 相关链接
+- 官方主页: http://www.archlinux.org/
+- 邮件列表: http://www.archlinux.org/mailman/listinfo/
+- 论坛: http://bbs.archlinux.org/
+- Wiki: http://wiki.archlinux.org/
